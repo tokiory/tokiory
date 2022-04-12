@@ -15,6 +15,10 @@
 
 - 📫 Also you can reach me at **crackhd10@gmail.com**
 
+- 📓 I have a cool notion repo! You can view it via [this link](https://crckhd.notion.site/c98c680eef874615a2a4c9beb43cf7de)
+
+- 🗒️ Also you can see my notes around internet, especially on notion too😅 [check it](https://crckhd.notion.site/8bd01b4be5d748ebbfd7a82a33d69634)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/crckhd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="crckhd" height="30" width="40" /></a>

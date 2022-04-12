@@ -5,9 +5,9 @@
 
 - 🌱 I’m currently exploring **TypeScript, JavaScript, Electron, Vue.js, WebRTC, and many other things**
 
-- 👨‍💻 All of my projects are available at [github.com/crckhd](github.com/crckhd)
+- 👨‍💻 All of my projects are available at [github.com/crckhd](https://github.com/crckhd)
 
-- 📝 I regularly write articles on [t.me/developer_log](t.me/developer_log)
+- 📝 I regularly write articles on [t.me/developer_log](https://t.me/developer_log)
 
 - 💬 U can ask me about **React, TypeScript, WebRTC, Linux**
 

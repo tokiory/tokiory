@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Daniil Shilo</h1>
 <h3 align="center">Front-end Developer with TypeScript and JavaScript skills</h3>
 
+<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=crckhd&theme=rose_pine"></div>
+
 **Some bio**: I'm 19 y.o, born in Ukraine, working remotely. I have been studying software engineering for 3 years already (although I already regret a little that I spent my time on this instead of self-education). I'm working on Linux system in Neovim Editor (it's just an editor for nerds🤓). Currently writing on TypeScript and researching about other cool things. I'm glad to speak with you on programming topics and some other tech topics. You can reach me in telegram or via email.
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=crckhd&label=Views&color=43de70&style=flat" alt="crckhd" /> </p>

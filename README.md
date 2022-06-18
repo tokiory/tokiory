@@ -31,3 +31,8 @@
 
 <h3 align="left">Support:</h3>
 <p><a href="https://ko-fi.com/crckhd"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="crckhd" /></a></p><br><br>
+
+# Structure
+
+* Config - config files for neovim, console and many other things
+* Notes - directory for Obsidian notes

@@ -23,7 +23,7 @@
 
 - 💬 U can ask me about **React, TypeScript, WebRTC, Linux**
 
-- 📫 Also you can reach me at **crackhd10@gmail.com**
+- 📫 Also you can reach me at **crckhd10@gmail.com**
 
 - 📓 I have a cool notion repo! You can view it via [this link](https://crckhd.notion.site/c98c680eef874615a2a4c9beb43cf7de)
 

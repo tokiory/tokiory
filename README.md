@@ -3,6 +3,10 @@
 
 **Some bio**: I'm 20 y.o, born in Ukraine, working remotely. I have been studying software engineering for 3 years already (although I already regret a little that I spent my time on this instead of self-education). I'm working on Linux system in Neovim Editor (it's just an editor for nerds🤓). Currently writing on TypeScript and researching about other cool things. I'm glad to speak with you on programming topics and some other tech topics. You can reach me in telegram or via email.
 
+<br>
+
+![](https://leetcard.jacoblin.cool/crckhd?ext=contest&theme=nord&animation=true&font=Lato)
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=crckhd&label=Views&color=43de70&style=flat" alt="crckhd" /> </p>
 
 ## Current Setup

@@ -5,11 +5,11 @@
 
 <br>
 
-<div style="display: flex; align-items: flex-start;" align="center">
- <img src="https://leetcard.jacoblin.cool/crckhd?ext=contest&theme=nord&animation=true&font=Lato">
-</div>
+<p align="center">
+<img src="https://www.codewars.com/users/crackidocky/badges/micro" alt=""/>
+<img src="https://komarev.com/ghpvc/?username=crckhd&label=Views&color=43de70&style=flat" alt="crckhd" />
+</p>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=crckhd&label=Views&color=43de70&style=flat" alt="crckhd" /> </p>
 
 ## Current Setup
 * **Main Machine**: Macbook Air (8/256) M1/2020

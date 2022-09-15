@@ -28,7 +28,7 @@
 
 - 📝 I regularly write articles on [t.me/developer_log](https://t.me/developer_log)
 
-- 💬 U can ask me about **React, TypeScript, WebRTC, Linux**
+- 💬 U can ask me about **Vue.js, TypeScript, WebRTC, Linux**
 
 - 📫 Also you can reach me at **crackidocky@gmail.com**
 

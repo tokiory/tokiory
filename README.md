@@ -24,17 +24,13 @@
 
 - 🌱 I’m currently exploring **TypeScript, JavaScript, Electron, Vue.js, WebRTC, and many other things**
 
-- 👨‍💻 All of my projects are available at [github.com/crckhd](https://github.com/crckhd)
+- 👨‍💻 All of my projects are available at [github.com/crackidocky](https://github.com/crackidocky)
 
 - 📝 I regularly write articles on [t.me/developer_log](https://t.me/developer_log)
 
 - 💬 U can ask me about **React, TypeScript, WebRTC, Linux**
 
-- 📫 Also you can reach me at **crckhd10@gmail.com**
-
-- 📓 I have a cool notion repo! You can view it via [this link](https://crckhd.notion.site/c98c680eef874615a2a4c9beb43cf7de)
-
-- 🗒️ Also you can see my notes around internet, especially on notion too😅 [check it](https://crckhd.notion.site/8bd01b4be5d748ebbfd7a82a33d69634)
+- 📫 Also you can reach me at **crackidocky@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

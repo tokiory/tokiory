@@ -8,6 +8,7 @@
 <p align="center">
 <img src="https://www.codewars.com/users/crackidocky/badges/micro" alt=""/>
 <img src="https://komarev.com/ghpvc/?username=crckhd&label=Views&color=43de70&style=flat" alt="crckhd" />
+<img src="https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fcrackidocky&logo=leetcode&logoColor=green" />
 </p>
 
 

@@ -32,6 +32,12 @@
 
 - 📫 Also you can reach me at **crackidocky@gmail.com**
 
+## Projects
+- [Snip.io](https://github.com/crackidocky/snip.io) - Snippet manager made on Rust, TypeScript, Tauri and Vue.
+- [Doneful](https://github.com/crackidocky/doneful) - Open Source pomodoro app with lofi and task manager.
+- [Bookmarker](https://github.com/crackidocky/bookmarker) - Bookmarks manager with sync via Google and Apple.
+- [Hikko](https://github.com/crackidocky/hikko) - Fast and efficient Neovim configuration, with great customization and base module.
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/crckhd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="crckhd" height="30" width="40" /></a>
@@ -44,20 +50,6 @@
 
 <h3 align="left">Support:</h3>
 <p><a href="https://ko-fi.com/crckhd"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="crckhd" /></a></p><br><br>
-
-# Projects
-
-## Rust
-- https://github.com/crackidocky/snip.io
-
-## Vue
-- https://github.com/crackidocky/doneful
-
-## Lit
-- https://github.com/crackidocky/bookmarker
-
-## Lua
-- https://github.com/crackidocky/hikko
 
 # Structure
 

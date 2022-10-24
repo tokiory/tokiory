@@ -38,6 +38,9 @@
 - [Bookmarker](https://github.com/crackidocky/bookmarker) - Bookmarks manager with sync via Google and Apple.
 - [Hikko](https://github.com/crackidocky/hikko) - Fast and efficient Neovim configuration, with great customization and base module.
 
+## Libraries
+- [Meta Parser JS](https://github.com/crackidocky/meta-parser) - Meta-tag parser for JavaScript and TypeScript. Works both on ESM and CJS modules.
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/crckhd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="crckhd" height="30" width="40" /></a>

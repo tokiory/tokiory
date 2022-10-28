@@ -35,7 +35,7 @@
 ## Projects
 - [Snip.io](https://github.com/crackidocky/snip.io) - Snippet manager made on Rust, TypeScript, Tauri and Vue.
 - [Doneful](https://github.com/crackidocky/doneful) - Open Source pomodoro app with lofi and task manager.
-- [Bookmarker](https://github.com/crackidocky/bookmarker) - Bookmarks manager with sync via Google and Apple.
+- [Linkmarker](https://github.com/crackidocky/linkmarker) - Bookmarks manager with sync via Google and Apple.
 - [Hikko](https://github.com/crackidocky/hikko) - Fast and efficient Neovim configuration, with great customization and base module.
 
 ## Libraries

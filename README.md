@@ -22,7 +22,7 @@
 
 ## Things
 
-- 🌱 I’m currently exploring **TypeScript, JavaScript, Electron, Vue.js, WebRTC, and many other things**
+- 🌱 I’m currently exploring **TypeScript, Vue.js, WebRTC, Rust and many other things**
 
 - 👨‍💻 All of my projects are available at [github.com/crackidocky](https://github.com/crackidocky)
 

@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Daniil Shilo <em>[crackidocky]</em></h1>
+<h1 align="center">Hi 👋, I'm Daniil Shilo <em>[kiotosi]</em></h1>
 <h3 align="center">Front-end Developer with TypeScript and JavaScript skills</h3>
 
 **Some bio**: I'm 20 y.o, born in Ukraine, working remotely. I have been studying software engineering for 3 years already (although I already regret a little that I spent my time on this instead of self-education). I'm working on Linux system in Neovim Editor (it's just an editor for nerds🤓). Currently writing on TypeScript and researching about other cool things. I'm glad to speak with you on programming topics and some other tech topics. You can reach me in telegram or via email.

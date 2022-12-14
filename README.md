@@ -24,7 +24,7 @@
 
 - 🌱 I’m currently exploring **TypeScript, Vue.js, WebRTC, Rust and many other things**
 
-- 👨‍💻 All of my projects are available at [github.com/crackidocky](https://github.com/crackidocky)
+- 👨‍💻 All of my projects are available at [github.com/kiotosi](https://github.com/kiotosi)
 
 - 📝 I regularly write articles on [t.me/developer_log](https://t.me/developer_log)
 

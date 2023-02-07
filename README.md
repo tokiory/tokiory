@@ -36,13 +36,13 @@
 - 📫 Also you can reach me at **crackidocky@gmail.com**
 
 ## Projects
-- [Snip.io](https://github.com/crackidocky/snip.io) - Snippet manager made on Rust, TypeScript, Tauri and Vue.
 - [Doneful](https://github.com/crackidocky/doneful) - Open Source pomodoro app with lofi and task manager.
-- [Linkmarker](https://github.com/crackidocky/linkmarker) - Bookmarks manager with sync via Google and Apple.
 - [Hikko](https://github.com/crackidocky/hikko) - Fast and efficient Neovim configuration, with great customization and base module.
 
 ## Libraries
-- [Meta Parser JS](https://github.com/crackidocky/meta-parser) - Meta-tag parser for JavaScript and TypeScript. Works both on ESM and CJS modules.
+- [Meta Parser JS](https://gitlab.com/kiotosi/meta-scrapper) - Meta-tag parser for JavaScript and TypeScript. Works both on ESM and CJS modules.
+- [Promisify Media](https://gitlab.com/kiotosi/promisify-media) - Promisify media standard method.
+- [Vue-kaomoji](https://gitlab.com/kiotosi/vue-kaomoji) - Vue.js library for kaomoji
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

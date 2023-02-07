@@ -11,6 +11,9 @@
 <img src="https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fcrackidocky&logo=leetcode&logoColor=green" />
 </p>
 
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=kiotosi" alt="">
+</p>
 
 ## Current Setup
 * **Main Machine**: Macbook Air (8/256) M1/2020

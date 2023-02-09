@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=kiotosi" alt="">
+  <img src="https://github-readme-stats.vercel.app/api?username=kiotosi" alt="">
 </p>
 
 ## Current Setup
@@ -34,6 +34,13 @@
 - 💬 U can ask me about **Vue.js, TypeScript, WebRTC, Linux**
 
 - 📫 Also you can reach me at **crackidocky@gmail.com**
+
+<br>
+<br>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiotosi&layout=compact" alt="">
+</p>
 
 ## Projects
 - [Doneful](https://github.com/crackidocky/doneful) - Open Source pomodoro app with lofi and task manager.

@@ -34,6 +34,6 @@ for _, server in ipairs(lspinstaller.get_installed_servers()) do
     flags = {
       debounce_text_changes = 150,
     },
-    capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
+    capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
   }
 end

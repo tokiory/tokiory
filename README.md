@@ -18,10 +18,11 @@
 ## Current Setup
 * **Main Machine**: Macbook Air (8/256) M1/2020
 * **Keyboard**: Keychron K7E3
-* **Editor**: Neovim
-  * **Font**: Cascadia Code (Patched with Nerd Fonts)
-  * **Colorscheme**: Gruvbox Material
-* **Terminal**: iterm2
+* **Editor**: Webstorm
+  * **Font**: JetBrains Mono (Patched with Nerd Fonts)
+  * **Colorscheme**: Monokai Pro
+* **Terminal**: Warp
+* **Search Utility**: Raycast
 
 ## Things
 

@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Daniil Shilo <em>[kiotosi]</em></h1>
-<h3 align="center">Front-end Developer with TypeScript and JavaScript skills</h3>
+<h3 align="center">Fullstack Developer on Vue/Go stack</h3>
 
-**Some bio**: I'm 20 y.o, born in Ukraine, working remotely. I have been studying software engineering for 3 years already (although I already regret a little that I spent my time on this instead of self-education). I'm working on Linux system in Neovim Editor (it's just an editor for nerds🤓). Currently writing on TypeScript and researching about other cool things. I'm glad to speak with you on programming topics and some other tech topics. You can reach me in telegram or via email.
+**Some bio**: I'm 20 y.o, born in Ukraine, working remotely. I have been studying software engineering for 3 years already (although I already regret a little that I spent my time on this instead of self-education). I'm working on MacOS system in Webstorm IDE. Currently writing on TypeScript and researching about other cool things. I'm glad to speak with you on programming topics and some other tech topics. You can reach me in telegram or via email.
 
 <br>
 
@@ -26,15 +26,17 @@
 
 ## Things
 
-- 🌱 I’m currently exploring **TypeScript, Vue.js, WebRTC, Rust and many other things**
+- 🌱 I’m currently exploring **TypeScript, Vue.js, WebRTC, Rust and Go**
 
 - 👨‍💻 All of my projects are available at [github.com/kiotosi](https://github.com/kiotosi)
 
 - 📝 I regularly write articles on [t.me/developer_log](https://t.me/developer_log)
 
-- 💬 U can ask me about **Vue.js, TypeScript, WebRTC, Linux**
+- 💬 U can ask me about **Vue.js, TypeScript, WebRTC, Rust, Go, React.js, Three.js, Linux and other technologies**
 
 - 📫 Also you can reach me at **crackidocky@gmail.com**
+
+- 🔗 You can read my articles and tutorials on **[vc](https://vc.ru/u/1178100-daniil-shilo)**, **[habr](https://habr.com/ru/users/crackidocky/posts/)** and in my **[blog](https://kiotosi.vercel.app)**
 
 <br>
 <br>

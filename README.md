@@ -72,9 +72,12 @@
 ![Less](https://img.shields.io/badge/Less-2B4C80?style=plastic&logo=Less&logoColor=white)
 ![Lua](https://img.shields.io/badge/Lua-%232C2D72.svg?style=plastic&logo=Lua&logoColor=white)
 ![Webpack](https://img.shields.io/badge/Webpack-%238DD6F9.svg?style=plastic&logo=Webpack&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-white?style=plastic&logo=vite&logoColor=yellow)
+![ESBuild](https://img.shields.io/badge/ESBuild-yellow?style=plastic&logo=esbuild&logoColor=black)
+![Rollup](https://img.shields.io/badge/Rollup-white?style=plastic&logo=rollup.js)
 ![Stylus](https://img.shields.io/badge/Stylus-%23ff6347.svg?style=plastic&logo=Stylus&logoColor=white)
 ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=plastic&logo=babel&logoColor=black)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=plastic&logo=docker&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=plastic&logo=docker&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=plastic&logo=eslint&logoColor=white)
 ![Pug](https://img.shields.io/badge/Pug-FFF?style=plastic&logo=pug&logoColor=A86454)
 
@@ -85,14 +88,17 @@
 
 ### Libraries
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white)
+![Vue Router](https://img.shields.io/badge/Vue%20Router-darkgreen?style=plastic&logo=vue.js&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=plastic&logo=react-router&logoColor=white)
 ![jQuery](https://img.shields.io/badge/JQuery-%230769AD.svg?style=plastic&logo=jquery&logoColor=white)
 ![Threejs](https://img.shields.io/badge/Threejs-black?style=plastic&logo=three.js&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-%23593d88.svg?style=plastic&logo=redux&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=plastic&logo=socket.io&badgeColor=010101)
+![Lit](https://img.shields.io/badge/Lit-lightblue?style=plastic&logo=lit&logoColor=black)
 
 ### Frameworks
 ![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=plastic&logo=Express&logoColor=%2361DAFB)
+![Koa.js](https://img.shields.io/badge/Koa.js-lightblue?style=plastic&logo=koa&logoColor=black)
 ![NuxtJS](https://img.shields.io/badge/Nuxt-black?style=plastic&logo=Nuxt.js&logoColor=white)
 ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=plastic&logo=vuetify&logoColor=AEDDFF)
 ![Next JS](https://img.shields.io/badge/Next-black?style=plastic&logo=Next.js&logoColor=white)
@@ -102,12 +108,13 @@
 ### Databases
 ![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=plastic&logo=Firebase) 
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=plastic&logo=supabase&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=plastic&logo=redis&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=plastic&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=plastic&logo=mariadb&logoColor=white)
 
 ### Extra
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=plastic&logo=nginx&logoColor=white)
+![Webstorm](https://img.shields.io/badge/Webstorm-blue?style=plastic&logo=webstorm&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=plastic&logo=nginx&logoColor=white)
 ![Gulp](https://img.shields.io/badge/Gulp.js-%23CF4647.svg?style=plastic&logo=gulp&logoColor=white)
 ![NPM](https://img.shields.io/badge/npm-%23000000.svg?style=plastic&logo=npm&logoColor=white)
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=plastic&logo=yarn&logoColor=white)

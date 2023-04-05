@@ -64,6 +64,7 @@
 ![Vue.js](https://img.shields.io/badge/Vue.js-%2335495e.svg?style=plastic&logo=vuedotjs&logoColor=%234FC08D)
 ![React](https://img.shields.io/badge/React-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB)
 ![Svelte](https://img.shields.io/badge/Svelte-%23f1413d.svg?style=plastic&logo=svelte&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-242424?style=flat&logo=astro)
 ![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=plastic&logo=go&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=plastic&logo=node.js&logoColor=white)
 

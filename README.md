@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Daniil Shilo <em>[kiotosi]</em></h1>
+<h1 align="center">Hi 👋, I'm Daniil Shilo <em>[izumiotsu]</em></h1>
 <h3 align="center">Fullstack Developer on Vue/Go stack</h3>
 
 **Some bio**: I'm 20 y.o, born in Ukraine, working remotely. I have been studying software engineering for 3 years already (although I already regret a little that I spent my time on this instead of self-education). I'm working on MacOS system in Webstorm IDE. Currently writing on TypeScript and researching about other cool things. I'm glad to speak with you on programming topics and some other tech topics. You can reach me in telegram or via email.
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kiotosi" alt="">
+  <img src="https://github-readme-stats.vercel.app/api?username=izumiotsu" alt="">
 </p>
 
 ## 👨🏻‍💻 Current Setup
@@ -28,7 +28,7 @@
 
 - 🌱 I’m currently exploring **TypeScript, Vue.js, WebRTC and Go**
 
-- 👨‍💻 All of my projects are available at [github.com/kiotosi](https://github.com/kiotosi)
+- 👨‍💻 All of my projects are available at [github.com/izumiotsu](https://github.com/izumiotsu)
 
 - 📝 I regularly write articles on [t.me/developer_log](https://t.me/developer_log)
 
@@ -36,13 +36,13 @@
 
 - 📫 Also you can reach me at **crackidocky@gmail.com**
 
-- 🔗 You can read my articles and tutorials on **[vc](https://vc.ru/u/1178100-daniil-shilo)**, **[habr](https://habr.com/ru/users/crackidocky/posts/)** and in my **[blog](https://kiotosi.vercel.app)**
+- 🔗 You can read my articles and tutorials on **[vc](https://vc.ru/u/1178100-daniil-shilo)**, **[habr](https://habr.com/ru/users/crackidocky/posts/)** and in my **[blog](https://izumiotsu.vercel.app)**
 
 <br>
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiotosi&layout=compact" alt="">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=izumiotsu&layout=compact" alt="">
 </p>
 
 ## 😳 Projects
@@ -50,9 +50,9 @@
 - [Hikko](https://github.com/crackidocky/hikko) - Fast and efficient Neovim configuration, with great customization and base module.
 
 ## 📚 Libraries
-- [Meta Parser JS](https://gitlab.com/kiotosi/meta-scrapper) - Meta-tag parser for JavaScript and TypeScript. Works both on ESM and CJS modules.
-- [Promisify Media](https://gitlab.com/kiotosi/promisify-media) - Promisify media standard method.
-- [Vue-kaomoji](https://gitlab.com/kiotosi/vue-kaomoji) - Vue.js library for kaomoji
+- [Meta Parser JS](https://gitlab.com/izumiotsu/meta-scrapper) - Meta-tag parser for JavaScript and TypeScript. Works both on ESM and CJS modules.
+- [Promisify Media](https://gitlab.com/izumiotsu/promisify-media) - Promisify media standard method.
+- [Vue-kaomoji](https://gitlab.com/izumiotsu/vue-kaomoji) - Vue.js library for kaomoji
 
 ## 🙋🏻‍♂️ Stack
 

@@ -19,7 +19,7 @@ I am a professional Frontend Engineer. Сurrently working in an outstaffing comp
   <img align="right" src="https://img.shields.io/badge/Telegram-2CA5E0?style=default&logo=telegram&logoColor=white" alt="Telegram Link">
 </a>
 
-<a href="https://t.me/okiow">
+<a href="mailto:crackidocky@gmail.com">
   <img align="right" src="https://img.shields.io/badge/Gmail-D14836?style=default&logo=gmail&logoColor=white" alt="Telegram Link">
 </a>
 

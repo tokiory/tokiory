@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Daniil Shilo <em>[yikiotso]</em></h1>
+<h1 align="center">Hi 👋, I'm Daniil Shilo <em>[okiow]</em></h1>
 <h3 align="center">Fullstack Developer on Vue/Go stack</h3>
 
 **Some bio**: I'm 20 y.o, born in Ukraine, working remotely. I have been studying software engineering for 3 years already (although I already regret a little that I spent my time on this instead of self-education). I'm working on MacOS system in Webstorm IDE. Currently writing on TypeScript and researching about other cool things. I'm glad to speak with you on programming topics and some other tech topics. You can reach me in telegram or via email.
@@ -6,13 +6,13 @@
 <br>
 
 <p align="center">
-<img src="https://www.codewars.com/users/yikiotso/badges/micro" alt=""/>
-<img src="https://komarev.com/ghpvc/?username=yikiotso&label=Views&color=43de70&style=flat" alt="crckhd" />
-<img src="https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fyikiotso&logo=leetcode&logoColor=green" />
+<img src="https://www.codewars.com/users/okiow/badges/micro" alt=""/>
+<img src="https://komarev.com/ghpvc/?username=okiow&label=Views&color=43de70&style=flat" alt="okiow" />
+<img src="https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fokiow&logo=leetcode&logoColor=green" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=izumiotsu" alt="">
+  <img src="https://github-readme-stats.vercel.app/api?username=okiow" alt="">
 </p>
 
 ## 👨🏻‍💻 Current Setup
@@ -28,7 +28,7 @@
 
 - 🌱 I’m currently exploring **TypeScript, Vue.js, WebRTC and Go**
 
-- 👨‍💻 All of my projects are available at [github.com/yikiotso](https://github.com/izumiotsu)
+- 👨‍💻 All of my projects are available at [github.com/okiow](https://github.com/okiow)
 
 - 📝 I regularly write articles on [t.me/developer_log](https://t.me/developer_log)
 
@@ -36,22 +36,22 @@
 
 - 📫 Also you can reach me at **crackidocky@gmail.com**
 
-- 🔗 You can read my articles and tutorials on **[vc](https://vc.ru/u/1178100-daniil-shilo)**, **[habr](https://habr.com/ru/users/crackidocky/posts/)** and in my **[blog](https://izumiotsu.vercel.app)**
+- 🔗 You can read my articles and tutorials on **[vc](https://vc.ru/u/1178100-daniil-shilo)**, **[habr](https://habr.com/ru/users/crackidocky/posts/)** and in my **[blog](https://okiow.vercel.app)**
 
 <br>
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=izumiotsu&layout=compact" alt="">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=okiow&layout=compact" alt="">
 </p>
 
 ## 😳 Projects
-- [Hikko](https://github.com/yikiotso/hikko) - Fast and efficient Neovim configuration, with great customization and base module.
+- [Hikko](https://github.com/okiow/hikko) - Fast and efficient Neovim configuration, with great customization and base module.
 
 ## 📚 Libraries
-- [Meta Parser JS](https://gitlab.com/yikiotso/meta-scrapper) - Meta-tag parser for JavaScript and TypeScript. Works both on ESM and CJS modules.
-- [Promisify Media](https://gitlab.com/yikiotso/promisify-media) - Promisify media standard method.
-- [Vue-kaomoji](https://gitlab.com/yikiotso/vue-kaomoji) - Vue.js library for kaomoji
+- [Meta Parser JS](https://gitlab.com/okiow/meta-scrapper) - Meta-tag parser for JavaScript and TypeScript. Works both on ESM and CJS modules.
+- [Promisify Media](https://gitlab.com/okiow/promisify-media) - Promisify media standard method.
+- [Vue-kaomoji](https://gitlab.com/okiow/vue-kaomoji) - Vue.js library for kaomoji
 
 ## 🙋🏻‍♂️ Stack
 
@@ -128,11 +128,11 @@
 
 ## 🤝 Connect with me
 <p align="left">
-<a href="https://codepen.io/yikiotso" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="crckhd" height="30" width="40" /></a>
+<a href="https://codepen.io/okiow" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="crckhd" height="30" width="40" /></a>
 <a href="https://instagram.com/crckhd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="crckhd" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/izumiotsu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="crckhd" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/zumiotsu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="crckhd" height="30" width="40" /></a>
 </p>
 
 ### 💸 Support
-<p><a href="https://ko-fi.com/crckhd"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="crckhd" /></a></p><br><br>
+<p><a href="https://ko-fi.com/okiow"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="crckhd" /></a></p><br><br>
 

@@ -1,4 +1,4 @@
-### okiow <img src="https://github-readme-stats.vercel.app/api?username=okiow&show_icons=true&hide_border=true&count_private=true&title_color=E95678&icon_color=B877DB" alt="Stats" width="440" align="right" >
+### tokiory <img src="https://github-readme-stats.vercel.app/api?username=tokiory&show_icons=true&hide_border=true&count_private=true&title_color=E95678&icon_color=B877DB" alt="Stats" width="440" align="right" >
 
 I am a professional Frontend Engineer. Сurrently working in an outstaffing company and engaged in petrojects. You can see my petprojects below in pinned projects.
 
@@ -15,7 +15,7 @@ I am a professional Frontend Engineer. Сurrently working in an outstaffing comp
 <br><br>
 
 <!-- Badges -->
-<a href="https://t.me/okiow">
+<a href="https://t.me/tokiory">
   <img align="right" src="https://img.shields.io/badge/Telegram-2CA5E0?style=default&logo=telegram&logoColor=white" alt="Telegram Link">
 </a>
 

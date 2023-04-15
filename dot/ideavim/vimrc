@@ -1,0 +1,22 @@
+" Search
+set ignorecase
+set joinspaces
+set smartcase
+set showmatch
+
+" Wildmenu
+set wildmenu
+set wildmode=longest:full,full
+
+" Clipboard
+set clipboard+=unnamed
+set nofixeol
+
+" Scroll
+set scrolloff=5
+
+" Split
+set splitbelow
+set splitright
+
+" vim: tabstop=2 shiftwidth=2 expandtab syntax=vim

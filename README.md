@@ -2,6 +2,8 @@
 
 I am a professional Frontend Engineer. Сurrently working in an outstaffing company and engaged in petrojects. You can see my petprojects below in pinned projects.
 
+**Jetbrains Request for OSS: 5460398**
+
 #### Stack
 
 <img align="left" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />           

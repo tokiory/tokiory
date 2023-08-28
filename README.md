@@ -2,7 +2,9 @@
 
 I am a professional Frontend Engineer. Сurrently working in an outstaffing company and engaged in petrojects. You can see my petprojects below in pinned projects.
 
-**Jetbrains Request for OSS: Request ID=10082023/12261531**
+**Jetbrains Support Request for OSS: 5460398**
+
+**Request ID of Jetbrains OSS Request (from message header): 10082023/12261531**
 
 #### Stack
 

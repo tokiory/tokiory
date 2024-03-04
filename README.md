@@ -1,21 +1,26 @@
-### tokiory <img align="right" width="175" src="https://github.com/tokiory/tokiory/assets/101672047/a4899bf8-bb1c-448b-a6d3-fa3f907658c7" />
+#### tokiory
+
+<div align="left">
+  <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />           
+  <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+  <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zig/zig-plain-wordmark.svg" />
+</div>
+
+<div align="left">
+  <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
+<img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+
+<img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" />
+</div>
+
 
 
 I am a professional Frontend Engineer. Сurrently working in an outstaffing company and engaged in petrojects. You can see my petprojects below in pinned projects.
 
-Thanks to Jetbrains for OSS License 💖
+> Thanks to Jetbrains for OSS License 💖
 
-#### Stack
-
-<img align="left" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />           
-<img align="left" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-<img align="left" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-<img align="left" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zig/zig-plain-wordmark.svg" />
-<img align="left" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
-<img align="left" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-<img align="left" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" />
-
-<br><br>
+૮ ˶ᵔ ᵕ ᵔ˶ ა
 
 <!-- Badges -->
 <a href="https://t.me/tokiory">

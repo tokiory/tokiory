@@ -1,4 +1,4 @@
-### tokiory <img align="right" width="250" src="https://github.com/tokiory/tokiory/assets/101672047/a4899bf8-bb1c-448b-a6d3-fa3f907658c7" />
+### tokiory <img align="right" width="175" src="https://github.com/tokiory/tokiory/assets/101672047/a4899bf8-bb1c-448b-a6d3-fa3f907658c7" />
 
 
 I am a professional Frontend Engineer. Сurrently working in an outstaffing company and engaged in petrojects. You can see my petprojects below in pinned projects.

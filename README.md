@@ -4,6 +4,7 @@
   <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />           
   <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
   <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+  <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
   <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zig/zig-original.svg" />
 </div>
 

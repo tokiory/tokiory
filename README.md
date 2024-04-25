@@ -7,7 +7,6 @@
 </div>
 
 <div align="left">
-  <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
   <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zig/zig-original.svg" />
 </div>
 

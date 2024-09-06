@@ -19,7 +19,6 @@
 <div>
   <p>I am a professional Frontend Engineer. Сurrently working in an outstaffing company and engaged in petrojects. You can see my petprojects below in pinned projects.</p>
   <p>Here's my <a href="https://tokiory.github.io/waitread/">reading list</a>, feel free to use it and contribute!</p>
-  <blockquote>Thanks to Jetbrains for OSS License 💖</blockquote>
 </div>
 ૮ ˶ᵔ ᵕ ᵔ˶ ა
 

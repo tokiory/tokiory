@@ -1,22 +1,75 @@
-" Search
+let mapleader = " "
+
+" Bell {{{
+set visualbell
+set noerrorbells
+" }}}
+
+" Clipboard {{{
+set clipboard=unnamedplus
+set clipboard+=ideaput
+set fixeol=false
+" }}}
+
+" Folding {{{
+set foldmethod=syntax
+" }}}
+
+" Search {{{
 set ignorecase
-set joinspaces
+set nojoinspaces
 set smartcase
+set incsearch
 set showmatch
+" }}}
 
-" Wildmenu
-set wildmenu
-set wildmode=longest:full,full
-
-" Clipboard
-set clipboard+=unnamed
-set nofixeol
-
-" Scroll
-set scrolloff=5
-
-" Split
+" Window {{{
 set splitbelow
 set splitright
+" }}}
 
-" vim: tabstop=2 shiftwidth=2 expandtab syntax=vim
+" Wild Menu {{{
+set wildmenu
+set wildmode=longest:full,full
+" }}}
+
+" Scroll {{{
+set scrolloff=5
+" }}}
+
+" Plugins {{{
+" https://github.com/tpope/vim-surround
+set surround
+
+" https://youtrack.jetbrains.com/issue/VIM-959
+set ideamarks
+
+" https://stackoverflow.com/questions/36833653/ideavim-navigate-through-project-file
+set NERDTree
+" }}}
+
+" Keyboard {{{
+nnoremap mb :action ToggleBookmark<CR>
+nnoremap '' :action ShowBookmarks<CR>
+nnoremap gc :action CommentByLineComment<CR>
+nnoremap K :action ShowHoverInfo<CR>
+imap jj <Esc>
+map Q gqset
+
+" LSP
+map gR :action RenameElement<CR>
+map gd :action GotoDeclaration<CR>
+map ga :action ShowIntentionActions<CR>
+
+" Navigation
+map <leader>o :action GotoFile<CR>
+map <leader>f :action FindInPath<CR>
+map <leader>s :action GotoSymbol<CR>
+map <leader>a :action GotoAction<CR>
+map <leader>p :action Switcher<CR>
+map <leader>v :action ActivateProjectToolWindow<CR>
+nmap <C-o> :action Back<CR>
+nmap <C-i> :action Forward<CR>
+" }}}
+
+" vim: tabstop=2 shiftwidth=2 expandtab syntax=vim foldmethod=marker foldlevelstart=1

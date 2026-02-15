@@ -26,10 +26,11 @@ require("lazy").setup({
   spec = {
     -- import your plugins
     { import = "plugins" },
+    { import = "plugins.theme" },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "monokai-pro" } },
+  install = { colorscheme = { "habamax" } },
   -- automatically check for plugin updates
-  checker = { enabled = false },
+  checker = { enabled = true, notify = false },
 })

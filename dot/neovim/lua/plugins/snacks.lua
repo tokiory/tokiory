@@ -1,43 +1,33 @@
 return {
   "folke/snacks.nvim",
-  enabled = false,
+  lazy = false,
   keys = {
-    {
-      '<leader>m',
-      function() require('snacks').picker('diagnostics') end,
-      desc = 'Show diagnostics'
-    },
-    {
-      '<leader>o',
-      function() require('snacks').picker('files') end,
-      desc = 'Show diagnostics'
-    },
-    {
-      '<leader>g',
-      function() require('snacks').picker('git_status') end,
-      desc = 'Show diagnostics'
-    },
+    { '<leader>o', function() Snacks.picker.smart() end, desc = 'Find Files' },
+    { '<leader>m', function() Snacks.picker.diagnostics() end, desc = 'Show diagnostics' },
+    { "<leader>g", function() Snacks.picker.git_status() end, desc = "Git Status" },
+    { "<leader>p", function() Snacks.picker.recent() end, desc = "Show recent files" },
+    { "<leader>P", function() Snacks.picker.buffers() end, desc = "Show recent buffers" },
     {
       'g/',
-      function() require('snacks').picker('live_grep') end,
-      desc = 'Show diagnostics'
+      function() Snacks.picker.grep() end,
+      desc = 'Find a file by word'
     },
-    -- { '<leader>p', '<cmd>Telescope oldfiles only_cwd=true<cr>', desc = 'Show old files' },
 
-    -- LSP things
+    --
+    -- -- LSP things
+    --
+    { "gd", function() Snacks.picker.lsp_definitions() end, desc = "Go to Definition" },
+    { "gA", function() Snacks.picker.lsp_references() end, nowait = true, desc = "Go to References" },
+    { "gI", function() Snacks.picker.lsp_implementations() end, desc = "Goto Implementation" },
+    { "<leader>gs", function() Snacks.picker.lsp_symbols() end, desc = "LSP Symbols" },
+    { "<leader>gS", function() Snacks.picker.lsp_workspace_symbols() end, desc = "LSP Workspace Symbols" },
 
-    { 'gd', function() require('snacks').picker('lsp_definitions') end,       desc = 'Go to definition' },
-    { 'gA', function() require('snacks').picker('lsp_references') end,        desc = 'Go to references' },
-    { 'gI', function() require('snacks').picker('lsp_implementations') end,   desc = 'Go to implementations' },
-    { 'gS', function() require('snacks').picker('lsp_workspace_symbols') end, desc = 'Show workspace symbols' },
-    { 'gs', function() require('snacks').picker('lsp_document_symbols') end,  desc = 'Show buffer symbols' },
+    -- Explorer
+    { "<leader>v", function() Snacks.picker.explorer() end, desc = "Open Explorer" },
   },
   ---@type snacks.Config
   opts = {
     picker = {
-      -- your picker configuration comes here
-      -- or leave it empty to use the default settings
-      -- refer to the configuration section below
     }
   }
 }

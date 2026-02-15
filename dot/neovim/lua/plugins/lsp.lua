@@ -32,7 +32,10 @@ return {
   lazy = false,
   keys = {
     { 'g.', vim.lsp.buf.code_action, desc = 'Show code actions' },
-    { 'cd', vim.lsp.buf.rename,      desc = "Rename an entity", noremap = true }
+    { 'cd', vim.lsp.buf.rename,      desc = "Rename an entity", noremap = true },
+    { "g.", "<cmd>lua vim.lsp.buf.code_action()<CR>", desc = "Code action" },
+    { "K", "<cmd>lua vim.lsp.buf.hover()<cr>", desc = "Hover information" },
+    { "gd", "<cmd>lua vim.lsp.buf.definition()<cr>", desc = "Go to declaration" },
     -- NOTE: All LSP actions are moved into telescope
   },
   config = function()
@@ -56,20 +59,38 @@ return {
       filetypes = FRONTEND_FILETYPES,
     })
 
-    vim.lsp.enable('vtsls')
-    vim.lsp.enable('vue_ls')
-    vim.lsp.enable('svelte')
-    vim.lsp.enable('unocss')
-    vim.lsp.enable('eslint')
+    local enabled_servers = {
+      -- Frontend
+      'vtsls',
+      'vue_ls',
+      'svelte',
+      'unocss',
+      'eslint',
 
-    -- Backend languages LSP
-    vim.lsp.enable('zls')
-    vim.lsp.enable('lua_ls')
-    vim.lsp.enable('gopls')
-    vim.lsp.enable('pyright')
+      -- Docker
+      'docker_language_server',
+
+      -- Backend
+      'zls',
+      'lua_ls',
+      'gopls',
+      'pyright',
+    }
+
+    for _, server in ipairs(enabled_servers) do
+      vim.lsp.enable(server)
+    end
+
+    -- Docker
+    vim.filetype.add({
+      pattern = {
+        [".*docker%-compose.*%.ya?ml"] = "yaml.docker-compose",
+        [".*compose.*%.ya?ml"] = "yaml.docker-compose",
+      },
+    })
 
     vim.diagnostic.config({
-      virtual_text = false,
+      virtual_text = true,
       signs = true,
       float = {
         border = "single",

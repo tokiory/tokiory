@@ -1,3 +1,5 @@
-require('settings')
 require('config.lazy')
-require('postload')
+require('config.settings')
+require('config.hooks')
+
+require('config.afterload')

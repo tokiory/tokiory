@@ -1,6 +1,7 @@
 return {
-  "nickkadutskyi/jb.nvim",
+  "serhez/teide.nvim",
   lazy = false,
   priority = 1000,
   opts = {},
 }
+

@@ -17,9 +17,14 @@ vim.opt.ignorecase = true               -- Ignore case if all characters in lowe
 vim.opt.joinspaces = false              -- Join multiple spaces in search
 vim.opt.smartcase = true                -- When there is a one capital letter search for exact match
 vim.opt.showmatch = true                -- Highlight search instances
+vim.opt.cursorline = true               -- Show current cursor line
+
+
 
 vim.opt.splitbelow = true               -- Put new windows below current
 vim.opt.splitright = true               -- Put new vertical splits to right
+
+vim.o.autoread = true                   -- Authload changes
 
 vim.opt.wildmenu = true
 vim.opt.wildmode = "longest:full,full"

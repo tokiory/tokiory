@@ -39,5 +39,5 @@ case "$SHELL" in
         ;;
     esac
 
-echo "alias czcfg='chezmoi --source $CURRENT_DIRECTORY' --destination $HOME/.config" >> $CONFIG_FILE
+echo "alias czcfg='chezmoi --source $CURRENT_DIRECTORY --destination $HOME/.config'" >> $CONFIG_FILE
 echo "Alias czcfg has been set up. Please restart your terminal or source your shell configuration file to use it."

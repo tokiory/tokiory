@@ -2,7 +2,7 @@ return {
   {
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
-    enabled = true,
+    enabled = false,
     keys = {
       { "<leader>v", "<cmd>Neotree toggle<cr>", desc = "Toggle Neotree" }
     },

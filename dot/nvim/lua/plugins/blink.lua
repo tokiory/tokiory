@@ -1,19 +1,8 @@
-local block_copilot_suggesions = function()
-  -- Block the normal Copilot suggestions
-  vim.api.nvim_create_augroup("github_copilot", { clear = true })
-  vim.api.nvim_create_autocmd({ "FileType", "BufUnload" }, {
-    group = "github_copilot",
-    callback = function(args)
-      vim.fn["copilot#On" .. args.event]()
-    end,
-  })
-  vim.fn["copilot#OnFileType"]()
-end
-
 return {
   'saghen/blink.cmp',
   dependencies = {
     'rafamadriz/friendly-snippets',
+    'fang2hou/blink-copilot',
   },
   init = function()
     vim.g.copilot_no_maps = true
@@ -21,7 +10,6 @@ return {
   version = '1.*',
   config = function()
     local blink = require('blink.cmp')
-    block_copilot_suggesions()
 
     blink.setup({
       keymap = { preset = 'default' },
@@ -30,7 +18,15 @@ return {
       },
       completion = { documentation = { auto_show = false } },
       sources = {
-        default = { 'lsp', 'path', 'snippets', 'buffer' },
+        default = { 'lsp', 'path', 'snippets', 'buffer', 'copilot' },
+        providers = {
+          copilot = {
+            name = "copilot",
+            module = "blink-copilot",
+            score_offset = 100,
+            async = true,
+          },
+        }
       },
       fuzzy = { implementation = "prefer_rust_with_warning" }
     })

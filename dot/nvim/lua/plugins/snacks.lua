@@ -28,6 +28,7 @@ return {
   ---@type snacks.Config
   opts = {
     picker = {
+      replace_netrw = true
     }
   }
 }

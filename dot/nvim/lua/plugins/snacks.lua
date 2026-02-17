@@ -1,5 +1,8 @@
 return {
   "folke/snacks.nvim",
+  dependencies = {
+    'nvim-tree/nvim-web-devicons'
+  },
   lazy = false,
   keys = {
     { '<leader>o', function() Snacks.picker.smart() end, desc = 'Find Files' },

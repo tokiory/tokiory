@@ -16,7 +16,19 @@ return {
       appearance = {
         nerd_font_variant = 'mono'
       },
-      completion = { documentation = { auto_show = false } },
+      cmdline = { completion = { ghost_text = { enabled = true } } },
+      completion = {
+        documentation = {
+          auto_show = false
+        },
+        ghost_text = { enabled = true },
+        list = {
+          selection = {
+            preselect = true,
+            auto_insert = true,
+          }
+        }
+      },
       sources = {
         default = { 'lsp', 'path', 'snippets', 'buffer', 'copilot' },
         providers = {

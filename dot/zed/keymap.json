@@ -96,4 +96,15 @@
       "cmd-|": "workspace::NewCenterTerminal",
     },
   },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-cmd-c": "workspace::CopyRelativePath"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-cmd-c": null
+    }
+  }
 ]

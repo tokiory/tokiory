@@ -1,0 +1,8 @@
+theme = Bright Lights
+background-opacity = 0.9
+background-blur = 20
+font-family = "MartianMono NF"
+font-size = 13
+adjust-cell-height = 20%
+window-width = 110
+window-height = 38

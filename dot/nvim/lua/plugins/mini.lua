@@ -8,7 +8,7 @@ return {
     { "<leader>gs", function() MiniExtra.pickers.git_files() end,  desc = "Git Status" },
     { "<leader>P",  function() MiniPick.builtin.buffers() end,     desc = "Show recent buffers" },
     { '<leader>o',  function() MiniPick.builtin.files() end,       desc = 'Find Files' },
-    { "<leader>p",  function() MiniExtra.pickers.history() end,    desc = "Show recent files" },
+    { "<leader>p",  function() MiniExtra.pickers.oldfiles() end,    desc = "Show recent files" },
     { '<leader>m',  function() MiniExtra.pickers.diagnostic() end, desc = 'Show diagnostics' },
     {
       'g/',

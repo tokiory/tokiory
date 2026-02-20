@@ -2,11 +2,8 @@ return {
   'saghen/blink.cmp',
   dependencies = {
     'rafamadriz/friendly-snippets',
-    'fang2hou/blink-copilot',
+    "giuxtaposition/blink-cmp-copilot",
   },
-  init = function()
-    vim.g.copilot_no_maps = true
-  end,
   version = '1.*',
   config = function()
     local blink = require('blink.cmp')
@@ -19,9 +16,10 @@ return {
       cmdline = { completion = { ghost_text = { enabled = true } } },
       completion = {
         documentation = {
-          auto_show = false
+          auto_show = true,
+          auto_show_delay_ms = 100,
         },
-        ghost_text = { enabled = true },
+        ghost_text = { enabled = false },
         list = {
           selection = {
             preselect = true,
@@ -34,7 +32,7 @@ return {
         providers = {
           copilot = {
             name = "copilot",
-            module = "blink-copilot",
+            module = "blink-cmp-copilot",
             score_offset = 100,
             async = true,
           },

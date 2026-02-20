@@ -1,15 +1,16 @@
 return {
-  'github/copilot.vim',
+  "zbirenbaum/copilot.lua",
+  event = "InsertEnter",
   config = function()
-    -- Block the normal Copilot suggestions (blink-cmp will handle them instead)
-    vim.api.nvim_create_augroup("github_copilot", { clear = true })
-    vim.api.nvim_create_autocmd({ "FileType", "BufUnload" }, {
-      group = "github_copilot",
-      callback = function(args)
-        vim.fn["copilot#On" .. args.event]()
-      end,
+    require("copilot").setup({
+      suggestion = {
+        enabled = false,
+        auto_trigger = false,
+        hide_during_completion = true,
+        debounce = 75,
+        trigger_on_accept = false,
+      },
+      panel = { enabled = false },
     })
-    vim.fn["copilot#OnFileType"]()
   end,
-  enabled = true,
 }

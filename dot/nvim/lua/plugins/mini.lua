@@ -1,14 +1,24 @@
+local toggle_minifiles = function()
+  local buf_name = vim.api.nvim_buf_get_name(0)
+  local path = vim.fn.filereadable(buf_name) == 1 and buf_name or vim.fn.getcwd()
+
+  if not MiniFiles.close() then
+    MiniFiles.open(path)
+    MiniFiles.reveal_cwd()
+  end
+end
+
 return {
   'nvim-mini/mini.nvim',
   version = false,
   lazy = false,
   keys = {
-    -- { '<leader>v', function() require('mini.files').open() end, desc = 'Open file explorer' },
+    { '<leader>v',  toggle_minifiles,                              desc = 'Toggle file explorer' },
 
     { "<leader>gs", function() MiniExtra.pickers.git_files() end,  desc = "Git Status" },
     { "<leader>P",  function() MiniPick.builtin.buffers() end,     desc = "Show recent buffers" },
     { '<leader>o',  function() MiniPick.builtin.files() end,       desc = 'Find Files' },
-    { "<leader>p",  function() MiniExtra.pickers.oldfiles() end,    desc = "Show recent files" },
+    { "<leader>p",  function() MiniExtra.pickers.oldfiles() end,   desc = "Show recent files" },
     { '<leader>m',  function() MiniExtra.pickers.diagnostic() end, desc = 'Show diagnostics' },
     {
       'g/',
@@ -26,6 +36,7 @@ return {
     require('mini.pairs').setup()
     require('mini.pick').setup()
     require('mini.extra').setup()
+    require('mini.files').setup()
     -- require('mini.diff').setup()
     -- require('mini.icons').setup()
     -- require('mini.files').setup()

@@ -1,7 +1,8 @@
 return {
   'sindrets/diffview.nvim',
   opts = {},
+  lazy = false,
   keys = {
-    {'<leader>gg', "<cmd>DiffViewOpen<cr>", desc = "Open DiffView"},
+    {'<leader>gg', "<cmd>DiffviewOpen<cr>", desc = "Open DiffView"},
   }
 }

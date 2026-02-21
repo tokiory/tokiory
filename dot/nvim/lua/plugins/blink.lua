@@ -16,8 +16,13 @@ return {
       cmdline = { completion = { ghost_text = { enabled = true } } },
       completion = {
         documentation = {
+          window = {
+            border = "rounded",
+            scrollbar = false,
+            winhighlight = "Normal:BlinkCmpDoc,FloatBorder:BlinkCmpDocBorder,EndOfBuffer:BlinkCmpDoc",
+          },
           auto_show = true,
-          auto_show_delay_ms = 100,
+          auto_show_delay_ms = 500,
         },
         ghost_text = { enabled = false },
         list = {
@@ -25,6 +30,21 @@ return {
             preselect = true,
             auto_insert = true,
           }
+        },
+        menu = {
+          border = "rounded",
+          scrolloff = 1,
+          scrollbar = false,
+          draw = {
+            padding = 1,
+            gap = 1,
+            columns = {
+              { "kind_icon" },
+              { "label",      "label_description", gap = 1 },
+              { "kind" },
+              { "source_name" },
+            },
+          },
         }
       },
       sources = {

@@ -16,11 +16,12 @@ git clone git@github.com:tokiory/tokiory.git "$HOME/.config/personal"
 # 2) Install chezmoi (macOS)
 brew install chezmoi
 
-# 3) Preview changes
-chezmoi --source "$HOME/.config/personal/dot" --destination "$HOME/.config" diff
+# 3) Bootstrap from this repository (installs `~/.config/chezmoi/chezmoi.local.toml`)
+chezmoi --source "$HOME/.config/personal/dot" --destination "$HOME/.config" --mode symlink apply -v
 
-# 4) Apply
-chezmoi --source "$HOME/.config/personal/dot" --destination "$HOME/.config" apply -v
+# 4) Preview/apply using configured defaults
+chezmoi --config "$HOME/.config/chezmoi/chezmoi.local.toml" diff
+chezmoi --config "$HOME/.config/chezmoi/chezmoi.local.toml" apply -v
 ```
 
 # Sync (with chezmoi)
@@ -35,19 +36,25 @@ We use `chezmoi` because it is safer and easier to maintain than a custom symlin
 
 ```bash
 git -C "$HOME/.config/personal" pull
-chezmoi --source "$HOME/.config/personal/dot" --destination "$HOME/.config" apply -v
+chezmoi --config "$HOME/.config/chezmoi/chezmoi.local.toml" apply -v
 ```
 
 ## Diff local changes
 
 ```bash
-chezmoi --source "$HOME/.config/personal/dot" --destination "$HOME/.config" diff
+chezmoi --config "$HOME/.config/chezmoi/chezmoi.local.toml" diff
 ```
 
-Tip: add a short alias:
+`chezmoi/chezmoi.local.toml` sets:
+
+- `sourceDir = ~/.config/personal/dot`
+- `destDir = ~/.config`
+- `mode = symlink`
+
+Optional alias:
 
 ```bash
-alias czcfg='chezmoi --source "$HOME/.config/personal/dot" --destination "$HOME/.config"'
+alias czcfg='chezmoi --config "$HOME/.config/chezmoi/chezmoi.local.toml"'
 ```
 
 Then use `czcfg apply -v`, `czcfg diff`, `czcfg status`.

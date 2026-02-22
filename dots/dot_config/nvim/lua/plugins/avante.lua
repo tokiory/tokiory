@@ -16,11 +16,12 @@ return {
   },
   opts = {
     provider = "opencode",
-    auto_suggestions_provider = "opencode",
+    -- auto_suggestions_provider = "opencode",
     acp_providers = {
       opencode = {
         command = "opencode",
         args = { "acp" },
+        model = "openai/gpt-5.2-codex",
       },
     },
     behaviour = {

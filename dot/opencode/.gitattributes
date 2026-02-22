@@ -1,2 +1,0 @@
-.gitattributes !filter !diff
-opencode.jsonc filter=git-crypt diff=git-crypt

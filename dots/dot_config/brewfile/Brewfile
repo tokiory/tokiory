@@ -1,0 +1,22 @@
+# Misc
+ffmpeg
+
+# Shell Tools
+eza
+bat
+fd
+ripgrep
+mise
+starship
+chezmoi
+zoxide
+
+# Dev tools
+lazygit
+neovim
+just
+gh
+mosh
+
+# AI
+opencode

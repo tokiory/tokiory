@@ -1,0 +1,141 @@
+# OPENSPEC:START
+# OpenSpec shell completions configuration
+fpath=("/Users/tokiory/.zsh/completions" $fpath)
+autoload -Uz compinit
+compinit
+# OPENSPEC:END
+
+# Author: Daniil Shilo <tokiory.personal@gmail.com>
+# Plugin manager: Antigen
+
+# ==============================================================================
+# PATH Configuration
+# ==============================================================================
+
+export PATH="$HOME/go/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+
+# ==============================================================================
+# Homebrew
+# ==============================================================================
+
+if ! command -v brew &> /dev/null; then
+  echo "Open new terminal window after installation of brew"; sleep 5
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  return
+fi
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# ==============================================================================
+# Antigen Plugin Manager
+# ==============================================================================
+
+ANTIGEN_PATH="$HOME/.config/antigen.zsh"
+
+if [[ ! -f "$ANTIGEN_PATH" ]]; then
+  echo "Downloading Antigen..." >&2
+  curl -L git.io/antigen > "$ANTIGEN_PATH"
+fi
+
+source "$ANTIGEN_PATH"
+
+# Plugins
+antigen bundle git
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
+
+if [[ "$TERM_PROGRAM" != "WarpTerminal" ]]; then
+  antigen bundle zsh-users/zsh-syntax-highlighting
+  antigen bundle Aloxaf/fzf-tab
+fi
+
+antigen apply
+
+# ==============================================================================
+# Auto-install Terminal Utilities
+# ==============================================================================
+
+_install_if_missing() {
+  local cmd="$1"
+  local pkg="${2:-$1}"
+  if ! command -v "$cmd" &> /dev/null; then
+    brew install "$pkg"
+  fi
+}
+
+_install_if_missing eza
+_install_if_missing zoxide
+_install_if_missing bat
+_install_if_missing rg ripgrep
+
+unset -f _install_if_missing
+
+# ==============================================================================
+# Language-specific PATH Configuration
+# ==============================================================================
+
+# pnpm
+if command -v pnpm &> /dev/null; then
+  export PNPM_HOME="$HOME/Library/pnpm"
+  [[ ":$PATH:" != *":$PNPM_HOME:"* ]] && export PATH="$PNPM_HOME:$PATH"
+fi
+
+# Rust/Cargo
+if command -v cargo &> /dev/null; then
+  export PATH="$HOME/.cargo/bin:$PATH"
+fi
+
+if command -v rustup &> /dev/null; then
+  export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
+fi
+
+# ==============================================================================
+# Shell Configuration
+# ==============================================================================
+
+export EDITOR="zed --wait"
+export HISTSIZE=10000
+export SAVEHIST=10000
+export HISTFILE=~/.zsh_history
+setopt appendhistory
+
+export COREPACK_ENABLE_AUTO_PIN=0
+export KEYTIMEOUT=1
+
+# Emacs-style keybindings (useful for navigating in VSCode)
+bindkey -e
+
+# ==============================================================================
+# Aliases
+# ==============================================================================
+
+alias ls='eza'
+alias ll='eza -l'
+alias la='eza -la'
+alias lt='eza --tree'
+
+# ==============================================================================
+# Tool Initialization
+# ==============================================================================
+
+# fzf
+if command -v fzf &> /dev/null; then
+  source <(fzf --zsh)
+fi
+
+# zoxide
+if command -v zoxide &> /dev/null; then
+  eval "$(zoxide init zsh)"
+fi
+
+# Starship prompt
+if command -v starship &> /dev/null; then
+  eval "$(starship init zsh)"
+fi
+
+# Mise
+if command -v mise &> /dev/null; then
+  eval "$(mise activate zsh)"
+fi

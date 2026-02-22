@@ -15,7 +15,7 @@ return {
   keys = {
     { '<leader>v',  toggle_minifiles,                              desc = 'Toggle file explorer' },
 
-    { "<leader>gs", function() MiniExtra.pickers.git_files() end,  desc = "Git Status" },
+    { "<leader>gs", function() MiniExtra.pickers.hunks() end,  desc = "Git Status" },
     { "<leader>P",  function() MiniPick.builtin.buffers() end,     desc = "Show recent buffers" },
     { '<leader>o',  function() MiniPick.builtin.files() end,       desc = 'Find Files' },
     { "<leader>p",  function() MiniExtra.pickers.oldfiles() end,   desc = "Show recent files" },
@@ -31,13 +31,20 @@ return {
     { "gs", function() MiniExtra.pickers.lsp({ scope = 'document_symbol' }) end,  desc = "LSP Symbols" },
     { "gS", function() MiniExtra.pickers.lsp({ scope = 'workspace_symbol' }) end, desc = "LSP Workspace Symbols" },
 
+    { "]c", function() MiniDiff.goto_hunk("next") end,                            desc = "Go to next hunk" },
+    { "[c", function() MiniDiff.goto_hunk("prev") end,                            desc = "Go to next hunk" },
+
   },
   config = function()
     require('mini.pairs').setup()
     require('mini.pick').setup()
     require('mini.extra').setup()
     require('mini.files').setup()
-    -- require('mini.diff').setup()
+    require('mini.diff').setup({
+      view = {
+        signs = { add = '+', change = '~', delete = '-' },
+      }
+    })
     -- require('mini.icons').setup()
     -- require('mini.files').setup()
 

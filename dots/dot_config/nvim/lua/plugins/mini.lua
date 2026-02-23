@@ -15,7 +15,7 @@ return {
   keys = {
     { '<leader>v',  toggle_minifiles,                              desc = 'Toggle file explorer' },
 
-    { "<leader>gs", function() MiniExtra.pickers.hunks() end,  desc = "Git Status" },
+    { "<leader>gs", function() MiniExtra.pickers.hunks() end,      desc = "Git Status" },
     { "<leader>P",  function() MiniPick.builtin.buffers() end,     desc = "Show recent buffers" },
     { '<leader>o',  function() MiniPick.builtin.files() end,       desc = 'Find Files' },
     { "<leader>p",  function() MiniExtra.pickers.oldfiles() end,   desc = "Show recent files" },

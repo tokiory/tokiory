@@ -35,10 +35,10 @@ return {
     },
     sections = {
       lualine_a = { 'mode' },
-      lualine_b = { 'branch', 'diff', 'diagnostics' },
-      lualine_c = { lsp, 'filename' },
-      lualine_x = { 'filetype' },
-      lualine_y = { 'progress' },
+      lualine_b = { lsp },
+      lualine_c = { 'filename' },
+      lualine_x = { 'diagnostics', 'filetype' },
+      lualine_y = { 'branch', 'diff' },
       lualine_z = { 'location' }
     },
   }

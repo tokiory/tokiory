@@ -18,7 +18,7 @@ return {
     { "<leader>gs", function() MiniExtra.pickers.hunks() end,      desc = "Git Status" },
     { "<leader>P",  function() MiniPick.builtin.buffers() end,     desc = "Show recent buffers" },
     { '<leader>o',  function() MiniPick.builtin.files() end,       desc = 'Find Files' },
-    { "<leader>p",  function() MiniExtra.pickers.oldfiles() end,   desc = "Show recent files" },
+    { "<leader>p",  function() MiniExtra.pickers.oldfiles({ current_dir = true }) end,   desc = "Show recent files" },
     { '<leader>m',  function() MiniExtra.pickers.diagnostic() end, desc = 'Show diagnostics' },
     {
       'g/',
@@ -45,7 +45,7 @@ return {
         signs = { add = '+', change = '~', delete = '-' },
       }
     })
-    -- require('mini.icons').setup()
+    require('mini.icons').setup()
     -- require('mini.files').setup()
 
 

@@ -2,80 +2,52 @@ return {
   "yetone/avante.nvim",
   event = "VeryLazy",
   version = false,
-  build = vim.fn.has("win32") ~= 0
-    and "powershell -ExecutionPolicy Bypass -File Build.ps1 -BuildFromSource false"
-    or "make",
+  build = "make",
   dependencies = {
     "nvim-lua/plenary.nvim",
     "MunifTanjim/nui.nvim",
-    "nvim-tree/nvim-web-devicons",
   },
-  keys = {
-    { "<leader>ao", "<cmd>AvanteToggle<cr>", desc = "Toggle Avante" },
-    { "<leader>ai", "<cmd>AvanteAsk<cr>", desc = "Ask Avante" },
-  },
-  config = function(_, opts)
-    require("avante").setup(opts)
-
-    local function open_model_selector()
-      local Config = require("avante.config")
-
-      if not Config.acp_providers[Config.provider] then
-        require("avante.model_selector").open()
-        return
-      end
-
-      local provider_name = Config.provider
-      local acp_provider = Config.acp_providers[provider_name]
-      if not acp_provider then
-        vim.notify("No ACP provider configuration found", vim.log.levels.WARN)
-        return
-      end
-
-      local models = vim.fn.systemlist({ acp_provider.command, "models" })
-      if vim.v.shell_error ~= 0 or not models or #models == 0 then
-        vim.notify("Failed to load models from opencode", vim.log.levels.ERROR)
-        return
-      end
-
-      local items = {}
-      for _, model in ipairs(models) do
-        if model ~= "" then table.insert(items, model) end
-      end
-
-      if #items == 0 then
-        vim.notify("No models returned by opencode", vim.log.levels.WARN)
-        return
-      end
-
-      vim.ui.select(items, {
-        prompt = "Select Avante ACP model",
-      }, function(choice)
-        if not choice then return end
-        Config.override({
-          acp_providers = {
-            [provider_name] = vim.tbl_deep_extend("force", Config.acp_providers[provider_name], { model = choice }),
-          },
-        })
-        vim.notify("Switched ACP model to " .. choice, vim.log.levels.INFO)
-      end)
-    end
-
-    pcall(vim.api.nvim_del_user_command, "AvanteModels")
-    vim.api.nvim_create_user_command("AvanteModels", open_model_selector, { desc = "avante: show models" })
-  end,
   opts = {
     provider = "opencode",
-    auto_suggestions_provider = "opencode",
+    -- auto_suggestions_provider = "copilot",
     acp_providers = {
       opencode = {
+        -- INFO(tokiory): At the current moment avante doesn't have ability to set model for acp
+        --                so we're just using default model from opencode.
+        --                See opencode config "model" field for options
         command = "opencode",
         args = { "acp" },
-        model = "openai/gpt-5.3-codex",
+      },
+    },
+    providers = {
+      copilot = {
+        model = "gpt-5-mini",
+        timeout = 30000,
       },
     },
     behaviour = {
+      auto_suggestions = false,
       auto_set_keymaps = false,
+      auto_approve_tool_permissions = false,
+    },
+    input = {
+      provider = "native",
+    },
+    selector = {
+      provider = "mini_pick",
+      provider_opts = {},
+    },
+    suggestion = {
+      debounce = 1000,
+      throttle = 1000,
+    },
+    mappings = {
+      ask = "<leader>aq",
+      refresh = "<leader>aR",
+      suggestion = {
+        accept = "<leader>aa",
+        dismiss = "<leader>ar",
+      },
     },
   },
 }

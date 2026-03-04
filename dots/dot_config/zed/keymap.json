@@ -106,5 +106,16 @@
     "bindings": {
       "ctrl-cmd-c": null
     }
+  },
+  {
+    "bindings": {
+      "cmd-?": "agent::ToggleFocus"
+    }
+  },
+  {
+    "context": "AgentPanel",
+    "bindings": {
+      "cmd-shift-k": "agent::ExpandMessageEditor"
+    }
   }
 ]

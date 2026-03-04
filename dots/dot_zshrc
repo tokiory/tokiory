@@ -15,13 +15,13 @@ compinit
 export PATH="$HOME/go/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
-
 # ==============================================================================
 # Homebrew
 # ==============================================================================
 
-if ! command -v brew &> /dev/null; then
-  echo "Open new terminal window after installation of brew"; sleep 5
+if ! command -v brew &>/dev/null; then
+  echo "Open new terminal window after installation of brew"
+  sleep 5
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   return
 fi
@@ -36,7 +36,7 @@ ANTIGEN_PATH="$HOME/.config/antigen.zsh"
 
 if [[ ! -f "$ANTIGEN_PATH" ]]; then
   echo "Downloading Antigen..." >&2
-  curl -L git.io/antigen > "$ANTIGEN_PATH"
+  curl -L git.io/antigen >"$ANTIGEN_PATH"
 fi
 
 source "$ANTIGEN_PATH"
@@ -60,7 +60,7 @@ antigen apply
 _install_if_missing() {
   local cmd="$1"
   local pkg="${2:-$1}"
-  if ! command -v "$cmd" &> /dev/null; then
+  if ! command -v "$cmd" &>/dev/null; then
     brew install "$pkg"
   fi
 }
@@ -77,17 +77,17 @@ unset -f _install_if_missing
 # ==============================================================================
 
 # pnpm
-if command -v pnpm &> /dev/null; then
+if command -v pnpm &>/dev/null; then
   export PNPM_HOME="$HOME/Library/pnpm"
   [[ ":$PATH:" != *":$PNPM_HOME:"* ]] && export PATH="$PNPM_HOME:$PATH"
 fi
 
 # Rust/Cargo
-if command -v cargo &> /dev/null; then
+if command -v cargo &>/dev/null; then
   export PATH="$HOME/.cargo/bin:$PATH"
 fi
 
-if command -v rustup &> /dev/null; then
+if command -v rustup &>/dev/null; then
   export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
 fi
 
@@ -117,27 +117,30 @@ alias la='eza -la'
 alias lt='eza --tree'
 
 alias oc="opencode run --agent cli-query --"
+alias scommit="opencode run --model github-copilot/grok-code-fast-1 \"Use git log and git diff tools. Read changes and create commit message. Commit in the same format as previous commits\""
+
+alias cz="chezmoi"
 
 # ==============================================================================
 # Tool Initialization
 # ==============================================================================
 
 # fzf
-if command -v fzf &> /dev/null; then
+if command -v fzf &>/dev/null; then
   source <(fzf --zsh)
 fi
 
 # zoxide
-if command -v zoxide &> /dev/null; then
+if command -v zoxide &>/dev/null; then
   eval "$(zoxide init zsh)"
 fi
 
 # Starship prompt
-if command -v starship &> /dev/null; then
+if command -v starship &>/dev/null; then
   eval "$(starship init zsh)"
 fi
 
 # Mise
-if command -v mise &> /dev/null; then
+if command -v mise &>/dev/null; then
   eval "$(mise activate zsh)"
 fi

@@ -3,7 +3,7 @@
 # Programming languages
 go = "latest"
 rust = "latest"
-python = "3.11"
+python = "3.12"
 zig = "master"
 
 # Runtimes

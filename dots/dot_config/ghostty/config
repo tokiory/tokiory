@@ -1,4 +1,5 @@
-theme = Bright Lights
+theme = Melange Dark
+macos-icon = holographic
 background-opacity = 0.9
 background-blur = 20
 font-family = "MartianMono NF"

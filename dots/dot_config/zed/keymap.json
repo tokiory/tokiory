@@ -21,8 +21,10 @@
     "context": "Editor && VimControl",
     "bindings": {
       "g f": "editor::Format",
-      "space v": "project_panel::ToggleFocus",
-      "space g": "git_panel::ToggleFocus",
+      "space g u": "git::PullRebase",
+      "space g p": "git::Push",
+      "space g f": "git::Fetch",
+      "space g c": "git::CheckoutBranch",
     },
   },
 
@@ -99,23 +101,23 @@
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-cmd-c": "workspace::CopyRelativePath"
-    }
+      "ctrl-cmd-c": "workspace::CopyRelativePath",
+    },
   },
   {
     "bindings": {
-      "ctrl-cmd-c": null
-    }
+      "ctrl-cmd-c": null,
+    },
   },
   {
     "bindings": {
-      "cmd-?": "agent::ToggleFocus"
-    }
+      "cmd-?": "agent::ToggleFocus",
+    },
   },
   {
     "context": "AgentPanel",
     "bindings": {
-      "cmd-shift-k": "agent::ExpandMessageEditor"
-    }
-  }
+      "cmd-shift-k": "agent::ExpandMessageEditor",
+    },
+  },
 ]

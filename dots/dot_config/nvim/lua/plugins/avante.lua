@@ -1,7 +1,6 @@
 return {
   "yetone/avante.nvim",
   event = "VeryLazy",
-  enabled = false,
   version = false,
   build = "make",
   dependencies = {
@@ -51,14 +50,14 @@ return {
     },
     behaviour = {
       auto_suggestions = false,
-      auto_set_keymaps = false,
+      auto_set_keymaps = true,
       auto_approve_tool_permissions = false,
     },
     input = {
       provider = "native",
     },
     selector = {
-      provider = "mini_pick",
+      provider = "telescope",
       provider_opts = {},
     },
     suggestion = {

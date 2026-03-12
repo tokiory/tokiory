@@ -16,15 +16,24 @@
     },
   },
 
+  // Leader-key keymaps
+  {
+    "context": "!((Editor && (mode == single_line || vim_mode == insert)) || Terminal || search)",
+    "use_key_equivalents": true,
+    "bindings": {
+      "space g u": "git::PullRebase",
+      "space g p": "git::Push",
+      "space g P": "git::ForcePush",
+      "space g f": "git::Fetch",
+      "space g c": "git::CheckoutBranch",
+    },
+  },
+
   // Vim keybindings
   {
     "context": "Editor && VimControl",
     "bindings": {
       "g f": "editor::Format",
-      "space g u": "git::PullRebase",
-      "space g p": "git::Push",
-      "space g f": "git::Fetch",
-      "space g c": "git::CheckoutBranch",
     },
   },
 
@@ -33,17 +42,6 @@
     "context": "Editor && showing_completions",
     "bindings": {
       "ctrl-y": "editor::ConfirmCompletion",
-    },
-  },
-
-  // Git keybindings
-  {
-    "context": "GitPanel",
-    "bindings": {
-      "ctrl-g p": "git::Push",
-      "ctrl-g P": "git::ForcePush",
-      "ctrl-g u": "git::Pull",
-      "ctrl-g f": "git::Fetch",
     },
   },
 

@@ -3,8 +3,9 @@ return {
   version = false,
   lazy = false,
   keys = {
-    { "]c", function() MiniDiff.goto_hunk("next") end,                            desc = "Go to next hunk" },
-    { "[c", function() MiniDiff.goto_hunk("prev") end,                            desc = "Go to next hunk" },
+    { "]c",        function() MiniDiff.goto_hunk("next") end, desc = "Go to next hunk" },
+    { "[c",        function() MiniDiff.goto_hunk("prev") end, desc = "Go to next hunk" },
+    { "<leader>'", function() MiniDiff.toggle_overlay() end,  desc = "Toggle diff" }
   },
   config = function()
     require('mini.pairs').setup()

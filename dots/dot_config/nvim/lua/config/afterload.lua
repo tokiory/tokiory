@@ -1,4 +1,6 @@
 -- vim.cmd[[ color gruvbox-material ]]
--- vim.cmd[[ color monokai-pro ]]
+vim.cmd[[ color monokai-pro-spectrum ]]
 -- vim.cmd[[ color solarized ]]
-vim.cmd[[ color melange ]]
+-- vim.cmd[[ color melange ]]
+-- vim.cmd[[ color koda-glade ]]
+-- vim.cmd[[ color teide ]]

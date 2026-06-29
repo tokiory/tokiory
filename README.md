@@ -34,3 +34,8 @@
 <a href="https://wakatime.com/@c66660f7-b6cb-48e9-a197-f57d968fb0d0">
   <img align="right" src="https://wakatime.com/badge/user/c66660f7-b6cb-48e9-a197-f57d968fb0d0.svg?style=default" alt="Total time coded since Aug 24 2022" />
 </a>
+
+---
+
+<p align="center"><strong>I have moved all my projects to my own selfhosted Git, 'cause this github crashes are awful</strong></p>
+<p align="center">(/¯◡ ‿ ◡)/¯ ~ ┻━┻&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="https://git.devtokiory.ru">git.devtokiory.ru</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┬──┬ ノ(ò_óノ)</strong></p>

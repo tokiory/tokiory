@@ -37,5 +37,5 @@
 
 ---
 
-<p align="center"><strong>I have moved all my projects to my own selfhosted Git, 'cause this github crashes are awful</strong></p>
+<p align="center"><strong>I have moved all my projects to my own selfhosted Git forge, 'cause this github crashes are awful</strong></p>
 <p align="center">(/¯◡ ‿ ◡)/¯ ~ ┻━┻&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="https://git.devtokiory.ru">git.devtokiory.ru</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┬──┬ ノ(ò_óノ)</strong></p>
